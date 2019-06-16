@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
     <link rel="stylesheet" href="public/assets/bootstrap/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="public/assets/global/css/layout.css" type="text/css">
+    <link rel="stylesheet" href="public/assets/bootstrap/css/main.css" type="text/css">
 
     <title>T'Chat <?php echo $_GET['action'] ?></title>
 
@@ -14,7 +14,7 @@
 
 <body>
 
-<div class="container">
+<div class="container bg-info">
 
     <div class="jumbotron">
       <h1 class="display-4">Hello, <?php echo $user->getUsername(); ?>!</h1>
@@ -58,6 +58,6 @@
 
 <script type="text/javascript" src="public/assets/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="public/assets/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="public/assets/global/js/layout.js"></script>
+<script type="text/javascript" src="public/assets/jquery/main.js"></script>
 </body>
 </html>
